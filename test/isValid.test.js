@@ -1,4 +1,4 @@
-import isValid from '../utils/isValid'
+import isValid from '../src/utils/isValid'
 
 test('Should return false', () => {
   expect(isValid()).toBe(false)
