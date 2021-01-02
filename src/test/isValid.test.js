@@ -1,4 +1,4 @@
-const isValid = require('../utils/isValid')
+import isValid from '../utils/isValid'
 
 test('Should return false', () => {
   expect(isValid()).toBe(false)

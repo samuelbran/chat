@@ -1,5 +1,5 @@
+import isValid from './utils/isValid'
 const connection = new WebSocket('ws://192.168.0.5:8080')
-const isValid = require('./utils/isValid')
 
 connection.onopen = () => {
   console.log('Connected')

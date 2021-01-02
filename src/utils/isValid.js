@@ -1,4 +1,4 @@
 /**
  * @param message {string} Message being sent.
  */
-module.exports = (message) => (message ? message : false)
+export default (message) => (message ? message : false)
