@@ -23,7 +23,7 @@ connection.onmessage = (event) => {
 document.querySelector('form').addEventListener('submit', (event) => {
   event.preventDefault()
   const message = document.querySelector('#message').value
-  if (isValid(message)) return
+  if (!isValid(message)) return
   connection.send(message)
   document.querySelector('#message').value = ''
 })
