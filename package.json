@@ -1,0 +1,28 @@
+{
+  "name": "chat",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "server": "node server.js",
+    "client": "serve",
+    "test": "jest",
+    "postinstall": "husky install"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^7.4.2"
+  },
+  "prettier": {
+    "semi": false,
+    "tabWidth": 2,
+    "trailingComma": "all",
+    "singleQuote": true
+  },
+  "devDependencies": {
+    "eslint": "^7.17.0",
+    "husky": "^5.0.6",
+    "jest": "^26.6.3"
+  }
+}
